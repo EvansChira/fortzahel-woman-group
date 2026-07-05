@@ -1,5 +1,236 @@
 <app-header></app-header>
 <app-page-header title="Book An Appointment"></app-page-header>
-<section class="min-h-screen"></section>
+<section class="h-min flex items-center py-24 sm:py-28 lg:py-32 xl:py-40 bg-white">
+    <div class="max-w-[1520px] mx-auto w-full px-4 sm:px-6 lg:px-8">
+
+        <div class="flex flex-col lg:flex-row items-start justify-between gap-12 lg:gap-16 xl:gap-20">
+            <!-- Contact Form -->
+            <div class="w-full lg:max-w-[620px] bg-white">
+
+                <form class="flex flex-col gap-6">
+
+                    <!-- First Name & Last Name -->
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+
+                        <!-- First Name -->
+                        <div class="flex flex-col gap-2">
+                            <label for="firstName" class="text-[15px] font-medium text-[#001305]">
+                                First Name <span class="text-red-500">*</span>
+                            </label>
+
+                            <input id="firstName" type="text" name="firstName" placeholder="Your first name" required
+                                class="w-full h-[58px] px-5 rounded-xl border border-gray-200
+                           bg-white text-[#001305] placeholder:text-gray-400
+                           outline-none transition
+                           focus:border-[#001305]
+                           focus:ring-2 focus:ring-[#001305]/10">
+                        </div>
+
+                        <!-- Last Name -->
+                        <div class="flex flex-col gap-2">
+                            <label for="lastName" class="text-[15px] font-medium text-[#001305]">
+                                Last Name <span class="text-red-500">*</span>
+                            </label>
+
+                            <input id="lastName" type="text" name="lastName" placeholder="Your last name" required
+                                class="w-full h-[58px] px-5 rounded-xl border border-gray-200
+                           bg-white text-[#001305] placeholder:text-gray-400
+                           outline-none transition
+                           focus:border-[#001305]
+                           focus:ring-2 focus:ring-[#001305]/10">
+                        </div>
+
+                    </div>
+
+                    <!-- Email -->
+                    <div class="flex flex-col gap-2">
+
+                        <label for="email" class="text-[15px] font-medium text-[#001305]">
+                            Email <span class="text-red-500">*</span>
+                        </label>
+
+                        <input id="email" type="email" name="email" placeholder="email@flowfix.com" required class="w-full h-[58px] px-5 rounded-xl border border-gray-200
+                       bg-white text-[#001305] placeholder:text-gray-400
+                       outline-none transition
+                       focus:border-[#001305]
+                       focus:ring-2 focus:ring-[#001305]/10">
+
+                    </div>
+
+                    <!-- Phone -->
+                    <div class="flex flex-col gap-2">
+
+                        <label for="phone" class="text-[15px] font-medium text-[#001305]">
+                            Phone <span class="text-red-500">*</span>
+                        </label>
+
+                        <input id="phone" type="tel" name="phone" placeholder="xxx-xxx-xxxx" required class="w-full h-[58px] px-5 rounded-xl border border-gray-200
+                       bg-white text-[#001305] placeholder:text-gray-400
+                       outline-none transition
+                       focus:border-[#001305]
+                       focus:ring-2 focus:ring-[#001305]/10">
+
+                    </div>
+
+                    <!-- Submit Button -->
+                    <button type="submit" class="w-full h-[60px]
+                   rounded-xl
+                   bg-[#FFEA4D]
+                   hover:bg-yellow-300
+                   transition-all duration-300
+                   text-[#001305]
+                   font-medium
+                   text-[16px]">
+
+                        Get A Call Back
+
+                    </button>
+
+                </form>
+
+            </div>
+           <!-- RIGHT CONTENT -->
+<div class="w-full lg:w-[42%] flex flex-col justify-between gap-12">
+
+    <!-- Top Content -->
+    <div class="space-y-10">
+
+        <!-- Title -->
+        <div class="space-y-5">
+
+            <h3 class="text-[34px] sm:text-[42px] lg:text-[48px] font-medium leading-tight text-[#001305]">
+                Get in Touch
+            </h3>
+
+            <p class="text-[16px] leading-8 text-[#676565] max-w-xl">
+                We're here to help with any questions, feedback, or inquiries you might have.
+                Reach out to us using the details below.
+            </p>
+
+        </div>
+
+        <!-- Social -->
+        <div class="space-y-5">
+
+            <p class="text-[18px] font-medium text-[#001305]">
+                Connect with us
+            </p>
+
+            <div class="flex items-center gap-4">
+
+                <a href="https://twitter.com"
+                    target="_blank"
+                    class="w-12 h-12 rounded-full bg-[#F7F7F2] hover:bg-[#FFEA4D] transition flex items-center justify-center">
+
+                    <img src="https://framerusercontent.com/images/g9a6ANtwBwEIJ1XtJPfJUazQhY.svg"
+                        class="w-5 h-5"
+                        alt="Twitter">
+
+                </a>
+
+                <a href="https://instagram.com"
+                    target="_blank"
+                    class="w-12 h-12 rounded-full bg-[#F7F7F2] hover:bg-[#FFEA4D] transition flex items-center justify-center">
+
+                    <img src="https://framerusercontent.com/images/Ep7kjgujPQt8CunxmokfI5pRk.svg"
+                        class="w-5 h-5"
+                        alt="Instagram">
+
+                </a>
+
+                <a href="https://linkedin.com"
+                    target="_blank"
+                    class="w-12 h-12 rounded-full bg-[#F7F7F2] hover:bg-[#FFEA4D] transition flex items-center justify-center">
+
+                    <img src="https://framerusercontent.com/images/w5Ed3erBpQbwnXFEzODq1vMWuSo.svg"
+                        class="w-5 h-5"
+                        alt="LinkedIn">
+
+                </a>
+
+                <a href="https://threads.com"
+                    target="_blank"
+                    class="w-12 h-12 rounded-full bg-[#F7F7F2] hover:bg-[#FFEA4D] transition flex items-center justify-center">
+
+                    <img src="https://framerusercontent.com/images/efsVUyFOPkIyBa65N49lTvtGYLU.svg"
+                        class="w-5 h-5"
+                        alt="Threads">
+
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- Contact Cards -->
+    <div class="space-y-6 flex gap-[16px]">
+
+        <!-- Address -->
+        <div
+            class="flex items-start gap-5 bg-[#F7F7F2] rounded-2xl p-6 hover:shadow-lg transition">
+
+            <img src="https://framerusercontent.com/images/MbKbDrvpN42aP160LfBrvRKByC8.svg"
+                class="w-12 h-12 flex-shrink-0"
+                alt="Location">
+
+            <div class="space-y-2">
+
+                <p class="text-sm text-[#676565]">
+                    Find us
+                </p>
+
+                <a href="https://maps.google.com"
+                    target="_blank"
+                    class="text-[#001305] font-medium leading-7 hover:text-blue-600">
+
+                    47940 Sanford Square Suite 188,
+                    Breanachester, Oregon
+
+                </a>
+
+            </div>
+
+        </div>
+
+        <!-- Contact -->
+        <div
+            class="flex items-start gap-5 bg-[#F7F7F2] rounded-2xl p-6 hover:shadow-lg transition">
+
+            <img src="https://framerusercontent.com/images/4Jj6k60cGtjrGFvnCJarxFCuQCA.svg"
+                class="w-12 h-12 flex-shrink-0"
+                alt="Contact">
+
+            <div class="space-y-3">
+
+                <p class="text-sm text-[#676565]">
+                    Reach out
+                </p>
+
+                <a href="mailto:mail@flowfix.usa"
+                    class="block font-medium text-[#001305] hover:text-blue-600">
+
+                    mail@flowfix.usa
+
+                </a>
+
+                <a href="tel:+21983589862"
+                    class="block font-medium text-[#001305] hover:text-blue-600">
+
+                    +21 983 589862
+
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+        </div>
+    </div>
+</section>
 <app-cta-section></app-cta-section>
 <app-footer></app-footer>
